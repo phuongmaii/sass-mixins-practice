@@ -1,0 +1,12 @@
+{
+  "name": "sass-mixins-variables-practice",
+  "version": "1.0.0",
+  "description": "Thuc hanh tao mixins va bien de toi uu CSS website mau",
+  "scripts": {
+    "build:sass": "sass scss/main.scss dist/css/main.css --no-source-map",
+    "watch:sass": "sass --watch scss/main.scss:dist/css/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

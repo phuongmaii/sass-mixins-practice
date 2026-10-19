@@ -1,0 +1,8 @@
+// components/_buttons.scss
+.button {
+  @include button-style($primary-color);
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

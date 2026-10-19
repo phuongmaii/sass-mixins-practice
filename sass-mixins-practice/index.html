@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thực hành SASS - Mixins & Biến</title>
+  <link rel="stylesheet" href="dist/css/main.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 30px;
+      margin: 0;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <h1>Tiêu đề H1 ($font-large)</h1>
+      <h2>Tiêu đề phụ H2 ($font-medium)</h2>
+      <p>Card này được tạo bằng mixin <code>box-style</code> và áp dụng các biến SASS chuẩn.</p>
+      <button class="button">Nút bấm ($primary-color)</button>
+    </div>
+  </div>
+</body>
+</html>
